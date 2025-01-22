@@ -12,7 +12,7 @@ int main() {
         printf("Divisible by 3");
     }
     else{
-        printf("Not Dvisible");
+        printf("Not Divisible");
     }
     return 0;
 }
