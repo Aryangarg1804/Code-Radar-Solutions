@@ -7,7 +7,7 @@ int main() {
         printf("%d",a);
     }
     else{
-        for(int i=2;i<a,i++){
+        for(int i=2;i<a;i++){
             if(a%i==0){
                 x=0;
                 break;
