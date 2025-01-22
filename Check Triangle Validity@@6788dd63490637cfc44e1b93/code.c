@@ -6,9 +6,9 @@ char* welcome() {
 int main() {
     int a,b,c;
     scanf("%d %d %d",&a,&b,&c);
-    float z=(a*a+b*b)*0.5;
-    printf("%f",z);
-    if (z==c){
+    int z=a*a+b*b;
+    
+    if (z==c*c){
         printf("Valid");
     }
     else{
