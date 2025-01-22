@@ -5,7 +5,9 @@ int main() {
 
     int k=0;
     int l=0;
+    printf("Hello");
     for(int i=0;i<a;i++){
+        printf("%d",i);
         for(int j=k;j<a-1;j++){
             printf("%c"," ");
         }
