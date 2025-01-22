@@ -3,7 +3,7 @@
 
 int main() {
     char a[100],c=[100];
-    int b[100];
+    int b;
     scanf("%s %d",&a,&b);
     sacnf("%s",&c);
     printf("Name: %a",a);
