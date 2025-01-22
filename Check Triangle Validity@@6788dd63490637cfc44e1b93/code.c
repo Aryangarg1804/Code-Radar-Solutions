@@ -3,11 +3,11 @@
 char* welcome() {
     return "Welcome to Code Radar!";
 }
-
 int main() {
     int a,b,c;
     scanf("%d %d %d",&a,&b,&c);
-    int z=(a*a+b*b)*0.5;
+    float z=(a*a+b*b)*0.5;
+    printf("%f",z);
     if (z==c){
         printf("Valid");
     }
