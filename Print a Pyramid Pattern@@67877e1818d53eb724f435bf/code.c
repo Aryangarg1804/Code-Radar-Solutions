@@ -14,6 +14,7 @@ int main() {
             printf("%c",'*');
             l+=2;
         }
+        printf("\n");
     }
 
 
