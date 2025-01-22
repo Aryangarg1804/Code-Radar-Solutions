@@ -2,18 +2,18 @@
 int main() {
     int a;
     scanf("%d",&a);
-    bool x = true;
+    int x=1;
     if(a<=1){
         printf("%d",a);
     }
     else{
         for(int i=2;i<a,i++){
             if(a%i==0){
-                x=false;
+                x=0;
                 break;
             }
         }
-        if(x){
+        if(x==1){
             printf("Prime");
         }
         else{
