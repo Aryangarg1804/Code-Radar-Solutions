@@ -7,10 +7,10 @@ int main() {
         for(int j=0;j<i+1;j++){
             printf("%d ",x);
             if(x==1){
-                x=1;
+                x=0;
             }
             else{
-                x=0;
+                x=1;
             }
         }
         printf("\n");
