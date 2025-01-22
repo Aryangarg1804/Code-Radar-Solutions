@@ -15,7 +15,7 @@ int main() {
         printf("\n");
     }
     int d=1;
-    l-=2;
+    l-=4;
     for(int x=0;x<a-1;x++){
         for(int y=0;y<d;y++){
             printf(" ");
