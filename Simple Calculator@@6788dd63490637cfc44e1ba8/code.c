@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main() {
    int a,b;
-   char c[1];
-   scanf("%d %d %s",&a,&b,&c);
+   char c;
+   scanf("%d %d %c",&a,&b,&c);
   switch(c){
     case '+':
         printf("%d",a+b);
