@@ -10,7 +10,7 @@ int main() {
     scanf("%d",&c);
     int d=0;
     if(c>a){
-        d=(c-a);
+        d=(c-a+1);
     } else{
         d=(a-c);
     }
