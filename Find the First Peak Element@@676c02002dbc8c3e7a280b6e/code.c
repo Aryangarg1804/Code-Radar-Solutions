@@ -28,7 +28,7 @@ int main() {
             }
         } 
     }
-    if(z==a){
+    if(z==0){
         printf("%d",-1);
     }
 
