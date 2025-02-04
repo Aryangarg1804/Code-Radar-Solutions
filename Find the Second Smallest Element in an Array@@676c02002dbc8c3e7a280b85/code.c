@@ -6,7 +6,7 @@ int main() {
    for(int i=0;i<a;i++){
     scanf("%d",&b[i]);
    }
-   int z=10000000,y=10000000;
+   int z=1000000,y=1000000;
    for(int i=0;i<a;i++){
      if(z>=b[i]){
         y=z;
