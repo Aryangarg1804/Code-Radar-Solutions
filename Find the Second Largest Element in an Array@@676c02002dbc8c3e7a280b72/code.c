@@ -10,7 +10,7 @@ int main() {
      int y=0;
      int x=0;
      if(a==1){
-         printf("%d",-1);
+         printf("%d\n",-1);
          x++;
      } else{
         for(int i=0;i<a;i++){
