@@ -8,7 +8,7 @@ int main() {
     }
      int z=0;
      int y=0;
-     int x=0
+     int x=0;
      for(int i=0;i<a;i++){
         if(z<b[i]){
             y=z;
