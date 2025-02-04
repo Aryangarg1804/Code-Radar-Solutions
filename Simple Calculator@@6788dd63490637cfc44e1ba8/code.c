@@ -21,9 +21,9 @@ int main() {
             printf("%d",a/b);
             break;
         }
-    default:
-        printf("error");
-        break;
+    // default:
+    //     printf("error");
+    //     break;
   }
     return 0;
 }
