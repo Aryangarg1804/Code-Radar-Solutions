@@ -10,7 +10,7 @@ int main() {
     j++;
    }
     c[strlen(a)]='\0';
-    printf("%s",c);
+    printf("%s",c[100]);
     if(a==c){
         printf("Yes");
     } else{
