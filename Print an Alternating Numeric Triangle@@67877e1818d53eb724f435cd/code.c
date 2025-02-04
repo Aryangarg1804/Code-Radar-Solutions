@@ -8,7 +8,7 @@ int main() {
             printf("%d ",x);
             x=1-x;
         }
-        if(x%2==0){
+        if(i%2==0){
             x=1;
         } else{
             x=0;
