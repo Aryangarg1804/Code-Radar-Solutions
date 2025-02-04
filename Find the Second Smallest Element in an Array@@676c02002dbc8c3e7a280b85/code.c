@@ -11,7 +11,7 @@ int main() {
      if(z>=b[i]){
         y=z;
         z=b[i];
-     } else if(z>y && y>b[i]){
+     } else if(z<y && y<b[i]){
         y=b[i];
      }
    }
