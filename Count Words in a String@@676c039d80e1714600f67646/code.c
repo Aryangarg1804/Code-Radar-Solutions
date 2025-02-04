@@ -1,17 +1,14 @@
 #include <stdio.h>
-#include<string.h>
 
 int main() {
-    char a[100];
-    gets(a);
-    char x=' ';
-    scanf("%d",a);
-    int z=0; 
-    for(int i=0;i<strlen(a);i++){
-        if(strcmp(a[i],x)==0){
-            z++;
+    char ch;
+    int count = 0;
+    while ((ch = getchar()) != '\n') { 
+        if (ch == ' ') {
+            count++;
         }
     }
-    printf("%d",z);
+
+    printf("%d\n", count);
     return 0;
 }
