@@ -8,7 +8,13 @@ int main() {
     }
     int c;
     scanf("%d",&c);
-    int d=(a-c)%a;
+    int d=0;
+    if(c>a){
+        d=(c-a);
+    } else{
+        d=(a-c);
+    }
+    // int d=(a-c);
     for(int i=d;i<a;i++){
         printf("%d ",b[i]);
     }
