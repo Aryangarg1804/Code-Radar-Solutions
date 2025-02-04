@@ -4,7 +4,7 @@ int main() {
     scanf("%d\n",&a);
     int b[a];
     for(int i=0;i<a;i++){
-        scanf("%d\n",b[i]);
+        scanf("%d",&b[i]);
     }
     int c;
     scanf("%d",&c);
@@ -15,13 +15,5 @@ int main() {
    for(int i=0;i<d;i++){
         printf("%d\n",b[i]);
     }
-
-
-
-
-
-
-
-
     return 0;
 }
