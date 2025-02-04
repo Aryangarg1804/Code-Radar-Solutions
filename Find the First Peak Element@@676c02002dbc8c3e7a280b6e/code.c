@@ -6,7 +6,7 @@ int main() {
     for(int i=0;i<a;i++){
         scanf("%d",&b[i]);
     }
-    int z=0;
+    int z=1;
     for(int i=0;i<a;i++){
         if(i==0){
             if(b[i]>b[i+1]){
