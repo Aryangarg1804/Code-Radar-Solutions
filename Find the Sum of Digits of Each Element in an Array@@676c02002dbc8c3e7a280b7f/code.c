@@ -4,7 +4,7 @@ int main() {
    scanf("%d",&a);
    int b[a];
    for(int i=0;i<a;i++){
-    scanf("%d",&a);
+    scanf("%d",&b[i]);
    }
    int c[a];
     for(int i=0;i<a;i++){
@@ -17,7 +17,7 @@ int main() {
         c[i]=y;
     }
     for(int i=0;i<a;i++){
-        printf("%d",c[i]);
+        printf("%d ",c[i]);
    }
     return 0;
 }
