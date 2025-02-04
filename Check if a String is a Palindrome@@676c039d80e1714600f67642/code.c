@@ -5,8 +5,10 @@ int main() {
    scanf("%s",&a);
    char c[100];
    int i;
+   int j=0;
    for(i=strlen(a)-1;i>=0;i--){
-    c+=a[i];
+    c[j]+=a[i];
+    j++;
    }
     c[i]='\0';
     if(a==c){
