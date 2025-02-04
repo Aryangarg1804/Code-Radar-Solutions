@@ -10,7 +10,7 @@ int main() {
     for(int i=0;i<a;i++){
         int y=b[i],z=0;
         if(b[i]<0){
-            b[i]=-b[i];
+            b[i]=-1*b[i];
             y=b[i];
         }
         while(y!=0){
