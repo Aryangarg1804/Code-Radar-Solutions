@@ -11,7 +11,7 @@ int main() {
          printf("%d\n",-1);
          
      } else{
-        int z=0;
+        int z=-100;
         int y=0;
         int x=0;
         for(int i=0;i<a;i++){
