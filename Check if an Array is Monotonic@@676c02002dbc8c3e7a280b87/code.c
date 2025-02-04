@@ -17,7 +17,7 @@ int main() {
         y++;
     }
    }
-   if(x==a || y==a){
+   if(x==a-1 || y==a-1){
     printf("YES");
    } else{
     printf("NO");
