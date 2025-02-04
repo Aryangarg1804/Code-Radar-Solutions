@@ -15,10 +15,10 @@ int main() {
             z=b[i];
         }
     }
-    if(y<z){
-    printf("%d",y);
+    if(y==z){
+    printf("%d",-1);
     } else{
-        printf("%d",-1);
+        printf("%d",y);
     }
    
     return 0;
