@@ -17,6 +17,9 @@ int main() {
         c[i]=y;
     }
     for(int i=0;i<a;i++){
+        if(c[i]<0){
+             printf("%d ",-c[i]);
+        }
         printf("%d ",c[i]);
    }
     return 0;
