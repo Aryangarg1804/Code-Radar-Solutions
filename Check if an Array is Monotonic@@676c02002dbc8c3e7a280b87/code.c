@@ -8,16 +8,16 @@ int main() {
    }
     int x=0,y=0;
    for(int i=0;i<a-1;i++){
-    if(b[i]<b[i+1]){
+    if(b[i]<=b[i+1]){
         x++;
     }
    }
    for(int i=0;i<a-1;i++){
-    if(b[i]>b[i+1]){
+    if(b[i]>=b[i+1]){
         y++;
     }
    }
-   if(x==a-1 || y==a-1){
+   if(x==a || y==a){
     printf("YES");
    } else{
     printf("NO");
