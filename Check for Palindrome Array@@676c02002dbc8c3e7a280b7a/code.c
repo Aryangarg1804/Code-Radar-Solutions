@@ -3,19 +3,19 @@ int main() {
     int a;
     scanf("%d",&a);
     int b[a];
-    int z=a-1;
     int c[a];
     for(int i=0;i<a;i++){
         scanf("%d",&b[i]);
-        c[z]=b[i];
-        z--;
     }
-    int x=0,y=0;
-    for(int i=a-1;i>=0;i++){
-        if(c[i]!=b[x]){
+    for (int i = 0; i < a; i++) {
+        c[i] = b[a - i - 1];
+    }
+    int y=0;
+    for (int i = 0; i < a; i++) {
+        if(b[i]!=c[i]){
             y=1;
+            break;
         }
-        x++;
     }
     if(y==1){
         printf("NO");
