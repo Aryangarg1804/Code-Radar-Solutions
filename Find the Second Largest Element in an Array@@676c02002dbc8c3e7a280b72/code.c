@@ -9,12 +9,17 @@ int main() {
      int z=0;
      int y=0;
      int x=0;
-     for(int i=0;i<a;i++){
+     if(a==1){
+         printf("%d",-1);
+     } else{
+        for(int i=0;i<a;i++){
         if(z<=b[i]){
             y=z;
             z=b[i];
+            }
         }
-    }
+     }
+     
     if(y==z){
     printf("%d",-1);
     } else{
