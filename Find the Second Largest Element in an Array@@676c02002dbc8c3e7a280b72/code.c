@@ -11,13 +11,17 @@ int main() {
          printf("%d\n",-1);
          
      } else{
-        int z=-100;
+        int z=0;
         int y=0;
         int x=0;
         for(int i=0;i<a;i++){
-        if(z<=b[i]){
-            y=z;
-            z=b[i];
+            if(z<=b[i] && z>=0){
+                y=z;
+                z=b[i];
+            }
+            if(z>=b[i] && z<0){
+                y=z;
+                z=b[i];
             }
         }
         if(y==z){
