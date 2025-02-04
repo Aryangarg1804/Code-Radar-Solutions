@@ -11,6 +11,7 @@ int main() {
      int x=0;
      if(a==1){
          printf("%d",-1);
+         x++;
      } else{
         for(int i=0;i<a;i++){
         if(z<=b[i]){
@@ -20,7 +21,7 @@ int main() {
         }
      }
      
-    if(y==z){
+    if(y==z && x==0){
     printf("%d",-1);
     } else{
         printf("%d",y);
