@@ -2,8 +2,9 @@
 #include <string.h>
 int main() {
    char a[100];
-   for(int i=strlen(a)-1;i>=0;i--){
+   for(int i=strlen(a)-1;i>0;i--){
     printf("%s",a[i]);
    }
+   
     return 0;
 }
