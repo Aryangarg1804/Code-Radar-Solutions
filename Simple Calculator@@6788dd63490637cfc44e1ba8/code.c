@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
    int a,b;
-   char c[10];
+   char c[1];
    scanf("%d %d %s",&a,&b,&c);
   switch(c){
     case '+':
@@ -21,9 +21,9 @@ int main() {
             printf("%d",a/b);
             break;
         }
-    // default:
-    //     printf("error");
-    //     break;
+    default:
+        printf("error");
+        break;
   }
     return 0;
 }
