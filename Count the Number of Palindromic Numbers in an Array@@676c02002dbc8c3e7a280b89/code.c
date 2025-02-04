@@ -8,9 +8,11 @@ int main() {
    }
    int x=0;
     for(int i=0;i<a;i++){
-        int y=b[i],z=0;
+        int y=0,z=0;
         if(b[i]<0){
             y=-b[i];
+        } else{
+            y=b[i];
         }
         int e=y;
         while(y!=0){
