@@ -10,8 +10,7 @@ int main() {
     j++;
    }
     c[strlen(a)]='\0';
-    printf("%s",c);
-    if(a==c){
+    if(strcmp(a,c)){
         printf("Yes");
     } else{
         printf("No");
