@@ -4,10 +4,11 @@
 int main() {
     char a[100];
     gets(a);
+    char x=' ';
     scanf("%d",a);
     int z=0; 
     for(int i=0;i<strlen(a);i++){
-        if(a[i]==' '){
+        if(strcmp(a[i],x)==0){
             z++;
         }
     }
