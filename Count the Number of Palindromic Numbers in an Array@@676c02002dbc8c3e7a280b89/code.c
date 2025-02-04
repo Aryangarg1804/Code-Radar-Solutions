@@ -8,16 +8,17 @@ int main() {
    }
    int x=0;
     for(int i=0;i<a;i++){
-        if(b[i]<0){
-            b[i]=-1*b[i];
-        }
         int y=b[i],z=0;
+        if(b[i]<0){
+            y=-b[i];
+        }
+        int e=y;
         while(y!=0){
             int j=y%10;
             z=z*10+j;
             y/=10;
         }
-        if(z==b[i]){
+        if(z==e){
             x++;
         }
 
