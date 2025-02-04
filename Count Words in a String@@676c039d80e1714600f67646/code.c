@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    char ch;
+    char ch[100];
     int count = 0;
     while ((ch = getchar()) != '\n') { 
         if (ch == ' ') {
