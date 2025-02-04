@@ -9,7 +9,7 @@ int main() {
    int z=100000,y=100000;
    for(int i=0;i<a;i++){
      if(z>=b[i]){
-        y=z;
+        // y=z;
         z=b[i];
      } else if(z<y && y<b[i]){
         y=b[i];
