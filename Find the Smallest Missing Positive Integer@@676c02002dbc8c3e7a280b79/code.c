@@ -10,7 +10,7 @@ int main() {
 
     for(int i=0;i<a;i++){
        for(int j=0;j<a;j++){
-        if(z==b[i]){
+        if(z==b[j]){
             y++;
         }
     }
