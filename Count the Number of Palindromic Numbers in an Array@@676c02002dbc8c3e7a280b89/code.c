@@ -9,7 +9,7 @@ int main() {
    int x=0;
     for(int i=0;i<a;i++){
         int y=b[i],z=0;
-        while(y>=0){
+        while(y!=0){
             int j=y%10;
             z=z*10+j;
             y/=10;
