@@ -6,7 +6,7 @@ int main() {
     for(int i=0;i<a;i++){
         scanf("%d",&b[i]);
     }
-    int z=1,y=0;
+    int z=1,y=0x=0;
 
     for(int i=0;i<a;i++){
        for(int j=0;j<a;j++){
@@ -16,10 +16,14 @@ int main() {
     }
     if(y==0){
         printf("%d",z);
+        x++;
         break;
     }
     z++;
     y=0;
+    }
+    if(x==0){
+        printf("%d",z);
     }
     return 0;
 }
