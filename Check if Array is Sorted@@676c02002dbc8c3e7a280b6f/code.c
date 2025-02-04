@@ -11,11 +11,12 @@ int main() {
     int y=0;
     for(int i=0;i<a;i++){
         if(z<=b[i]){
-            z=b[i]
+            z=b[i];
             y++;
         }
         else{
             printf("Not Sorted");
+            break;
         }
     }
     if(y==a){
