@@ -9,9 +9,9 @@ int main() {
             x=1-x;
         }
         if(x%2==0){
-            x=0;
-        } else{
             x=1;
+        } else{
+            x=0;
         }
         printf("\n");
     }
