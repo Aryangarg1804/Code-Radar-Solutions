@@ -7,7 +7,7 @@ int main() {
     for (int i = 0; i < a; i++) {
         scanf("%d", &b[i]);
     }
-    int x=0,y=0;
+    int x=-10000000,y=0;
      for (int i = 0; i < a; i++) {
         if(b[i]%2==0 && x<b[i]){
             x=b[i];
