@@ -2,7 +2,7 @@
 #include<string.h>
 int main() {
     char a[100];
-    gets(a);
+    scanf("%[^\n]%*c", a);
     for(int i=strlen(a);i>=0;i++){
         printf("%s",a[i]);
     }
