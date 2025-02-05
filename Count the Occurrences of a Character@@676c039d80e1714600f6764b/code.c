@@ -5,10 +5,8 @@ int main() {
     int x=0;
     scanf("%s %c",a,&b);
     for(int i=0;a[i]!='\0';i++){
-        if(strcmp(a[i],b)==0){
-            
-            x++;
-            
+        if(b==a[i]){
+            x++; 
         } 
     }
     printf("%d",x);
