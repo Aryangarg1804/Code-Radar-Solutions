@@ -13,7 +13,7 @@ int main() {
         y=(a/2)+1;
         printf("%d",(b[x]+b[y])/2);
     } else{
-        z=(a/2)+1;
+        z=(a/2);
         printf("%d",b[z]);
     }
     
