@@ -7,11 +7,14 @@ int main() {
     for(int i=0;i<strlen(a)-1;i++){
         for(int j=i+1;j<strlen(a);j++){
             if(a[i]!=a[j]){
-                printf("%c",a[i]);
-                
-                return 0;
+                x=1;
             }
         }
+        if(x==0){
+            printf("%c",a[i]);
+            return 0;
+        }
+        x=0;
     }
     printf("-");
     return 0;
