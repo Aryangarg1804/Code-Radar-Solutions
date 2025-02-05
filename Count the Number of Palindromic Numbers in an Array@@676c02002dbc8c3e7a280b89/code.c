@@ -11,7 +11,7 @@ int main() {
 
     int x = 0;
     for (int i = 0; i < a; i++) {
-        int y = (b[i] < 0) ? -b[i] : b[i];  
+        int y = b[i];  
         int z = 0, temp = y;
 
         while (temp != 0) {
