@@ -9,8 +9,8 @@ int main() {
     }
     int x=0,y=0,z=0;
     if(a%2==0){
-        x=a/2;
-        y=(a/2)+1;
+        x=a/2-1;
+        y=(a/2);
         printf("%d",(b[x]+b[y])/2);
     } else{
         z=(a/2);
