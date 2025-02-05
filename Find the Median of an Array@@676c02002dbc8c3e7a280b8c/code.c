@@ -11,9 +11,9 @@ int main() {
     if(a%2==0){
         x=a/2;
         y=(a/2)+1;
-        printf("%d",(d[x]+d[y])/2);
+        printf("%d",(b[x]+b[y])/2);
     } else{
-        z=(a/2)+1
+        z=(a/2)+1;
         printf("%d",b[z]);
     }
     
