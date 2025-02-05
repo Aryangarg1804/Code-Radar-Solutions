@@ -9,7 +9,7 @@ int main() {
     }
     int x=0;
     for (int i = 0; i < a; i++) {
-        if(x==b[i]){
+        if(c==b[i]){
             x++;
         }
     }
