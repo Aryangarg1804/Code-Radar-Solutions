@@ -3,8 +3,8 @@
 int main() {
     char a[100];
     scanf("%[^\n]%*c", a);
-    for(int i=strlen(a)-1;i>=0;i++){
-        printf("%s",a[i]);
+    for(int i=strlen(a);i>=0;i++){
+        printf("%c",a[i]);
     }
     return 0;
 }
