@@ -10,7 +10,7 @@ int main() {
                 x=1;
             }
         }
-        if(x==0){
+        if(x==1){
             printf("%c",a[i]);
             return 0;
         }
