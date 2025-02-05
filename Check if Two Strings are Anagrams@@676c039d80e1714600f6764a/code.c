@@ -11,6 +11,7 @@ int main() {
             for(int j=0;j<strlen(a);j++){
                 if(a[i]==b[j]){
                     x++;
+                    break;
                 }
             }
         }
