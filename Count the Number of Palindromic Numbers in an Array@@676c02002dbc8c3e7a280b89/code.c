@@ -14,7 +14,7 @@ int main() {
         int y = b[i];  
         int z = 0, temp = y;
 
-        while (temp != 0) {
+        while (temp != 0 && y>0) {
             int j = temp % 10;
             z = z * 10 + j;
             temp /= 10;
