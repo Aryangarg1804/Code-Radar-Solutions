@@ -1,25 +1,31 @@
 #include <stdio.h>
-#include<string.h>
+#include <string.h>
+
 int main() {
-    char a[100],b[100];
-    scanf("%s\n%s",a,b);
-    int x=0;
-    if(strlen(a)!=strlen(b)){
+    char a[100], b[100];
+    int freq[256] = {0}; 
+    
+    scanf("%s %s", a, b);
+
+    if (strlen(a) != strlen(b)) {
         printf("No");
-    } else{
-        for(int i=0;i<strlen(a);i++){
-            for(int j=0;j<strlen(a);j++){
-                if(a[i]==b[j]){
-                    x++;
-                    break;
-                }
-            }
+        return 0;
+    }
+
+   
+    for (int i = 0; a[i] != '\0'; i++) {
+        freq[(int)a[i]]++; 
+        freq[(int)b[i]]--; 
+    }
+
+
+    for (int i = 0; i < 256; i++) {
+        if (freq[i] != 0) {
+            printf("No");
+            return 0;
         }
     }
-    if(x==strlen(a)){
-        printf("Yes");
-    } else{
-        printf("No");
-    }
+
+    printf("Yes");
     return 0;
 }
