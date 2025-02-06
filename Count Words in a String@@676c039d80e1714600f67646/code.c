@@ -3,7 +3,7 @@
 int main() {
     char ch;
     int count = 0;
-    while ((ch = getchar()) != '\n') { 
+    while ((ch = getchar()) != '\0') { 
         if (ch == ' ') {
             count++;
         }
