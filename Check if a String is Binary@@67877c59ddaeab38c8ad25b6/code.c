@@ -3,15 +3,18 @@
 int main() {
     char a[100];
     scanf("%s",a);
+    int x=0;y=0;
     for(int i=0;i<strlen(a);i++){
-        if(a[i]!=0){
-            printf("No");
-            return 0;
-        } else if(a[i]!=1){
-            printf("No");
-            return 0;
+        if(a[i]=='0' || a[i]=='1'){
+            x=1;
+        } else{
+            y++;
         }
     }
-    printf("Yes");
+    if(y>0){
+        printf("No");
+    } else{
+        printf("Yes");
+    }
     return 0;
 }
