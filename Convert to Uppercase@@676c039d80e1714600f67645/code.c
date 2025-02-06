@@ -4,7 +4,12 @@ int main() {
     char a[100];
     scanf("%[^\n]%*c",a);
     for(int i=0;i<strlen(a);i++){
-        printf("%c",a[i]-32);
+        if(a[i]>=97 && a[i]<=122){
+              printf("%c",a[i]-32);
+        } else{
+            printf("%c",a[i]);
+        }
+      
     }
     return 0;
 }
