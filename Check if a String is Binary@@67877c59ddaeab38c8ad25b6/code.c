@@ -7,7 +7,7 @@ int main() {
         if(a[i]!=0){
             printf("No");
             return 0;
-        } else(a[i]!=1){
+        } else if(a[i]!=1){
             printf("No");
             return 0;
         }
