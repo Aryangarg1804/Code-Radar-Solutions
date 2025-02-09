@@ -12,10 +12,10 @@ int main() {
     scanf("%d",&n);
     struct student s[n];
     for(int i=0;i<n;i++){
-        scanf("%d %s %f",s[i].roll_number,s[i].name,s[i].marks);
+        scanf("%d %s %f",&s[i].roll_number,s[i].name,&s[i].marks);
     }
     for(int i=0;i<n;i++){
-        printf("Roll Number: %d, Name: %s, Marks: %f",s[i].roll_number,s[i].name,s[i].marks);
+        printf("Roll Number: %d, Name: %s, Marks: %f\n",s[i].roll_number,s[i].name,s[i].marks);
     }
     return 0;
 }
