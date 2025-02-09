@@ -1,14 +1,7 @@
-#include <stdio.h>
-
-int main() {
-    int num;
-
-    scanf("%d", &num);
-    
-    int flipped = ~num;
-    
-  
-    printf("%d\n", flipped);
-    
+#include<stdio.h>
+int main(){
+    int a;
+    scanf("%d",%a);
+    printf("%d",~a);
     return 0;
 }
