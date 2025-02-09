@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include<math.h>
 char* welcome() {
     return "Welcome to Code Radar!";
 }
@@ -7,6 +7,6 @@ char* welcome() {
 int main() {
     int a;
     scanf("%d",&a);
-    printf("%d",a & -a);
+    printf("%d", log2(N & -N));
     return 0;
 }
