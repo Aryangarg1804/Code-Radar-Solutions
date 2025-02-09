@@ -16,11 +16,11 @@ int main() {
     }
     for(int i=0;i<n;i++){
         if(s[i].marks>=85){
-                 printf("Roll Number: %d, Name: %s, Marks: %c\n",s[i].roll_number,s[i].name,'A');
+                 printf("Roll Number: %d, Name: %s, Grade: %c\n",s[i].roll_number,s[i].name,'A');
         } else if(s[i].marks>=70){
-             printf("Roll Number: %d, Name: %s, Marks: %c\n",s[i].roll_number,s[i].name,'B');
+             printf("Roll Number: %d, Name: %s, Grade: %c\n",s[i].roll_number,s[i].name,'B');
         } else{
-             printf("Roll Number: %d, Name: %s, Marks: %c\n",s[i].roll_number,s[i].name,'C');
+             printf("Roll Number: %d, Name: %s, Grade: %c\n",s[i].roll_number,s[i].name,'C');
         }
        
     }
