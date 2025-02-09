@@ -24,7 +24,7 @@ int main() {
         }
     }
     for(int i=0;i<n;i++){
-        printf("%f\n",a[i]);
+        printf("%f\n",s[i].marks);
     }
     for(int i=0;i<n;i++){
         for(int j=0;j<n;j++){
