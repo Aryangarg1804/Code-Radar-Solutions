@@ -14,7 +14,7 @@ int main() {
         scanf("%d %s %f",&s[i].roll_number,s[i].name,&s[i].marks);
         a[i]=s[i].marks;
     }
-    for(int i=0;i<n;i++){
+    for(int i=0;i<n-1;i++){
         for(int j=i+1;j<n;j++){
             if(a[i]<=a[j]){
                 int temp = a[i];
