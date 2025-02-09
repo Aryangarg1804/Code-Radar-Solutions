@@ -1,17 +1,13 @@
 #include <stdio.h>
 
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
 int main() {
-    long a;
-    scanf("%d",&a);
-    if(a|1){
-        printf("Set");
-    }
-    else{
-        printf("Not Set");
-    }
+    unsigned int N;
+    scanf("%u", &N); 
+
+    if (N & (1 << 31)) 
+        printf("Set\n");
+    else
+        printf("Not Set\n");
+
     return 0;
 }
