@@ -25,7 +25,7 @@ int main() {
             z+=s[i].subscription_cost;
         }
     }
-    printf("Basic: %d Users, Revenue: %.2f; Standard: %d Users, Revenue: %.2f; Premium:%d Users, Revenue: %.2f",u,x,v,y,w,z);
+    printf("Basic: %d Users, Revenue: %.2f; Standard: %d Users, Revenue: %.2f; Premium: %d Users, Revenue: %.2f",u,x,v,y,w,z);
 
     return 0;
 }
