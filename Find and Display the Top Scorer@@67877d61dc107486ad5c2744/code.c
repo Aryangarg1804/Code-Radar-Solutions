@@ -20,6 +20,6 @@ int main() {
             k=i;
         }
     }
-    printf("Roll Number: %d, Name: %s, Marks:%.2f",s[k].roll_number,s[k].name,s[k].marks);
+    printf("Top Scorer: Roll Number: %d, Name: %s, Marks:%.2f",s[k].roll_number,s[k].name,s[k].marks);
     return 0;
 }
