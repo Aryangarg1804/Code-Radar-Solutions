@@ -9,7 +9,7 @@ int main(){
     scanf("%d",&n);
     struct student s[n];
     for(int i=0;i<n;i++){
-        scanf("%d %s %f",s[i].roll_number,s[i].name,s[i].marks);
+        scanf("%d %s %f",&s[i].roll_number,s[i].name,&s[i].marks);
     }
     float a;
     scanf("%f",&a);
