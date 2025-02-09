@@ -24,6 +24,9 @@ int main() {
         }
     }
     for(int i=0;i<n;i++){
+        printf("%f\n",a[i]);
+    }
+    for(int i=0;i<n;i++){
         for(int j=0;j<n;j++){
             if(a[i]==s[j].marks){
                 printf("Roll Number: %d, Name: %s, Marks: %.2f\n",s[j].roll_number,s[j].name,s[j].marks);
