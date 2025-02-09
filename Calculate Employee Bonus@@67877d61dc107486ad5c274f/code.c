@@ -13,7 +13,7 @@ int main() {
         scanf("%d %s %f",&e[i].employee_id,e[i].name,&e[i].salery);
     }
     for(int i=0;i<n;i++){
-        printf("Employee ID: %d, Name: %s, Bonus: %.2f\n",s[i].roll_number,s[i].name,s[i].marks/10.0);
+        printf("Employee ID: %d, Name: %s, Bonus: %.2f\n",s[i].roll_number,s[i].name,(s[i].marks)/10.0);
     }
     return 0;
 }
