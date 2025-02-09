@@ -16,7 +16,11 @@ int main() {
     }
     int a;
     scanf("%d",&a);
-    printf("Roll Number: %d, Name: %s, Marks: %f\n",s[a].roll_number,s[a].name,s[a].marks);
-    
+    int k=0;
+    for(int i=0;i<n;i++){
+        if(k==s[i].roll_number){
+             printf("Roll Number: %d, Name: %s, Marks: %f\n",s[i].roll_number,s[i].name,s[i].marks);
+        }
+    }
     return 0;
 }
