@@ -3,9 +3,14 @@
 
 int findLowestSetBitPosition(int N) {
     if (N == 0)
-        return -1; 
-    
-    return log2(N & -N); 
+        return -1;
+
+    int position = 0;
+    while ((N & 1) == 0) { 
+        N >>= 1;
+        position++;
+    }
+    return position;
 }
 
 int main() {
