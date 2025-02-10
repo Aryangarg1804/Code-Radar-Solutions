@@ -5,7 +5,7 @@ int main() {
     scanf("%[^\n]%*c", a);
     char b[100];
     int k=0;
-    for(int i=0;i<strlen(a);i++){
+    for(int i=strlen(a)-1;i>=0;i--){
         b[k]=a[i];
         k++;
     }
