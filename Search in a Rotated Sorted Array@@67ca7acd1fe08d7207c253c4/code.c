@@ -1,5 +1,5 @@
 
-int searchInRotatedArray(int arr[],int n;int target){
+int searchInRotatedArray(int arr[],int n,int target){
     int st = 0,end = n-1;
     while(st<=end){
         int mid = st + (end - st)/2;
