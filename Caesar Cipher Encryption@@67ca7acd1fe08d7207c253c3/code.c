@@ -11,6 +11,6 @@ void caesarCipher(char message[],int shift,char encrypted[]){
         }
 
     }
-    encrypted[i+1] = '\0';
+    encrypted[i] = '\0';
 }
 
