@@ -1,5 +1,15 @@
 void caesarCipher(char message[],int shift,char encrypted[]){
-    for(int i=0;i<40;i++){
-        encrypted[i] = (message[i]+shift);
+    int i;
+    for(i=0;message[i]!='\0';i++){
+        char ch = message[i];
+        if(ch>97 && ch<122){
+            encrypted[i] = (ch - 'A' + shift) %26;
+        } else if(ch > 65 && ch<90){
+            encrypted[i] = (ch - 'a' + shift) %26;
+        } else{
+            encrypted[i] = ch;
+        }
+
     }
+    encrypted[i+1] = '\0';
 }
