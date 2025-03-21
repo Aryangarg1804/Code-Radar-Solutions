@@ -6,10 +6,18 @@ int searchInRotatedArray(int arr[],int n,int target){
         if(target == arr[mid]){
             return mid;
         } 
-        if(arr[0]<arr[mid]){
-            end = mid -1;
+        if(arr[st]<arr[mid]){
+            if(arr[st] <= target && target >= arr[mid]){
+                end = mid - 1;
+            } else{
+                st = mid +1;
+            }
         } else{
-            st = mid +1;
+            if(arr[st] <= target && target >= arr[mid]){
+                st = mid+1;
+            } else{
+                end = mid -1;
+            }
         }
     }
 }
